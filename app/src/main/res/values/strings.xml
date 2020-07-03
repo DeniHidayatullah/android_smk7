@@ -1,0 +1,23 @@
+
+<resources>
+    <string name="app_name">SMKN 7 JEMBER</string>
+    <string name="btn_login">btn_login</string>
+    <string name="login_app">login_app</string>
+    <string name="title_activity_main">Profil</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">SMKN 7 JEMBER</string>
+    <string name="nav_header_subtitle1">JL. PB. SUDIRMAN NO.16, Jatiroto</string>
+    <string name="nav_header_subtitle2">Kec. Sumberbaru, Kab. Jember</string>
+    <string name="nav_header_subtitle3">Telp. (0334) 321400</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_profil">Dashboard</string>
+    <string name="menu_jadwal_pelajaran">Jadwal Pelajaran</string>
+    <string name="menu_logout">Keluar</string>
+    <string name="menu_nilai_uts">Nilai UTS</string>
+    <string name="menu_nilai_raport">Nilai Raport</string>
+    <string name="menu_presensi">Absensi Siswa</string>
+
+</resources>

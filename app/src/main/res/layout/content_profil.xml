@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorHint"
+    tools:context="com.example.android_smk7.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="1dp"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="1000dp"
+                    android:layout_centerHorizontal="true"
+
+                    android:layout_marginTop="50dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="20dp"
+                        >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NIS                :"/>
+
+                            <TextView
+                                android:id="@+id/textViewNis"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=""/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nisn                     :"/>
+
+                            <TextView
+                                android:id="@+id/textViewNisn"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=""/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nama Siswa                          :"/>
+
+                            <TextView
+                                android:id="@+id/textViewNamaSiswa"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=""/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jenis Kelamin   :"/>
+
+                            <TextView
+                                android:id="@+id/textViewJenisKelamin"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=" "/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tempat Lahir                    :"/>
+
+                            <TextView
+                                android:id="@+id/textViewTempatLahir"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=""/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tanggal Lahir                  :"/>
+
+                            <TextView
+                                android:id="@+id/textViewTanggalLahir"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=""/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Agama        :"/>
+
+                            <TextView
+                                android:id="@+id/textViewAgama"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=""/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Kecamatan                    :"/>
+
+                            <TextView
+                                android:id="@+id/textViewKecamatan"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=""/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nomer Hp             :"/>
+
+                            <TextView
+                                android:id="@+id/textViewHp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=""/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Foto        :"/>
+
+                            <TextView
+                                android:id="@+id/textViewFoto"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=""/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Angkatan   :"/>
+
+                            <TextView
+                                android:id="@+id/textViewAngkatan"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=""/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Kelas                :"/>
+
+                            <TextView
+                                android:id="@+id/textViewKodeKelas"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=""/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Password                :"/>
+
+                            <TextView
+                                android:id="@+id/textViewPassword"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=""/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nama Ayah                :"/>
+
+                            <TextView
+                                android:id="@+id/textViewAyah"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text="s"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Pekerjaan Ayah               :"/>
+
+                            <TextView
+                                android:id="@+id/textViewPekerjaanAyah"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=""/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nama Ibu                :"/>
+
+                            <TextView
+                                android:id="@+id/textViewIbu"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=""/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Pekerjaan Ibu               :"/>
+
+                            <TextView
+                                android:id="@+id/textViewPekerjaanIbu"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=""/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nama Wali                :"/>
+
+                            <TextView
+                                android:id="@+id/textViewWali"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=""/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Pekerjaan Wali                :"/>
+
+                            <TextView
+                                android:id="@+id/textViewPekerjaanWali"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:text=""/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+ 

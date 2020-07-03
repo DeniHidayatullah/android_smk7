@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Home">
+        <menu>
+            <item
+                android:id="@+id/profil"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="@string/menu_profil"/>
+
+        </menu>
+    </item>
+    <item android:title="Menu">
+        <menu>
+            <item
+                android:id="@+id/antrian"
+                android:icon="@drawable/ic_antrian_black_24dp"
+                android:title="@string/menu_jadwal_pelajaran" />
+            <item
+                android:id="@+id/antrian_anda"
+                android:icon="@drawable/ic_antrian_black_24dp"
+                android:title="@string/menu_presensi" />
+        </menu>
+    </item>
+    <item android:title="Laporan Nilai">
+        <menu>
+            <item
+                android:id="@+id/nilai_uts"
+                android:icon="@drawable/ic_antrian_black_24dp"
+                android:title="@string/menu_nilai_uts" />
+            <item
+                android:id="@+id/nilai_raport"
+                android:icon="@drawable/ic_antrian_black_24dp"
+                android:title="@string/menu_nilai_raport" />
+        </menu>
+    </item>
+    <item android:title="Keluar">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+
+</menu>
+
